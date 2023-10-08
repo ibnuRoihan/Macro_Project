@@ -4,7 +4,17 @@ body {
     padding: 0;
 }
 
+header {
+    font-family: 'Poppins', sans-serif;
+}
 
+main {
+    font-family: 'Poppins', sans-serif; 
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+}
 /* Navbar */
 nav {
     justify-content: space-between;
@@ -51,7 +61,7 @@ nav {
 
 .banner .container-fluid .banner-caption h1 {
     text-align: right;
-    font-size: 40px;
+    font-size: 36px;
     padding-right: 3%;
     font-weight: 700;
     color: #1F298D;
@@ -59,7 +69,7 @@ nav {
 }
 
 .banner .container-fluid .banner-caption h3 {
-    font-size: 22px;
+    font-size: 19px;
     padding-top: 10%;
     padding-bottom: 0%;
     color: #1F298D;
@@ -74,17 +84,17 @@ nav {
     margin-left: 13%;
 }
 
-.banner .list-caption ul li span {
-    padding: 7px;
-    background-color: #FEDA15;
+.banner .list-caption ul li .number {
+    width: 30px;
+    height: 30px;
+    background-color: #FEda15;
+    border-radius: 50%;
     color: #fff;
-    border-radius: 10%;
-    font-weight: 700;
-    
 }
 
+
 .banner .list-caption ul li p {
-    margin-left: 7%;
+    margin-left: 5%;
     color: #1F298D;
 }
 
@@ -102,7 +112,7 @@ nav {
     color: #fff;
 }
 
-.banner .btn:hover {
+.banner .btn1:hover {
     background-color: #EBEDFF;
     border: 1px solid #1F298D;
     color: #1F298D;
@@ -132,7 +142,7 @@ footer .footer-logo a span {
 }
 
 footer .footer-logo a img, .navbar-brand img {
-    width: 50px;
+    width: 45px;
     height: auto;
 }
 
