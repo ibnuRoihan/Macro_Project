@@ -147,3 +147,37 @@ footer .footer-contact .alamat p {
     padding: 0;
     margin: 2px;
 }
+
+/* Profile account */
+.navbar .dropdown img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.navbar .dropdown span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1F298D;
+}
+
+.navbar .dropdown span:hover {
+    color: #5C66C6;
+}
+
+.navbar .dropdown-menu {
+    border: 1px 0,7 #5C66C6;
+    background-color: #EBEDFF;
+}
+
+.navbar .dropdown-menu a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1F298D;
+}
+
+.navbar .dropdown-menu a:hover {
+    width: 93%;
+    color: #EBEDFF;
+    background-color: #5C66C6;
+    border-radius: 0 4% 4% 0;
+}
