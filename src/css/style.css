@@ -1,0 +1,149 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar */
+nav {
+    justify-content: space-between;
+    background-color: #EBEDFF;
+    border-bottom: 3px solid #1F298D;
+}
+
+.navbar-nav li a {
+    
+    font-size: 16px;
+    font-weight: 600;
+    color: #1F298D;
+}
+
+.navbar-nav .sign-in {
+    border-right: 3px solid #1F298D;
+}
+
+.navbar-nav .sign-in a:hover {
+    color: #5C66C6;
+}
+
+.navbar-nav .sign-up {
+    background-color: #1F298D;
+    border: 1px solid #1F298D;
+    border-radius: 2%;
+}
+
+.navbar-nav .sign-up a {
+    color: #EBEDFF;
+}
+
+.navbar-nav .sign-up a:hover {
+    background-color: #EBEDFF;
+    border: 1px #1F298D;
+    color: #1F298D;
+}
+
+/* Banner */
+.banner .container-fluid {
+    margin-top: 6%;
+    padding: 5%;
+}
+
+.banner .container-fluid .banner-caption h1 {
+    text-align: right;
+    font-size: 40px;
+    padding-right: 3%;
+    font-weight: 700;
+    color: #1F298D;
+    border-right: 5px solid #1F298D;
+}
+
+.banner .container-fluid .banner-caption h3 {
+    font-size: 22px;
+    padding-top: 10%;
+    padding-bottom: 0%;
+    color: #1F298D;
+    font-weight: 700;
+}
+
+.banner .list-caption ul li {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    margin: 3%;
+    margin-left: 13%;
+}
+
+.banner .list-caption ul li span {
+    padding: 7px;
+    background-color: #FEDA15;
+    color: #fff;
+    border-radius: 10%;
+    font-weight: 700;
+    
+}
+
+.banner .list-caption ul li p {
+    margin-left: 7%;
+    color: #1F298D;
+}
+
+.banner .list-caption ul li p span {
+    color: #1F298D;
+    background-color: #fff;
+}
+
+.banner .btn {
+    margin-left: 13%;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #1F298D;
+    color: #fff;
+}
+
+.banner .btn:hover {
+    background-color: #EBEDFF;
+    border: 1px solid #1F298D;
+    color: #1F298D;
+}
+
+/* footer */
+footer {
+    border-top: 3px solid #1F298D;
+    background-color: #EBEDFF;
+    color: #1F298D;
+}
+
+footer .footer-contact{
+    padding: 2%;
+}
+
+footer .footer-contact h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer .footer-logo a span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1F298D;
+}
+
+footer .footer-logo a img, .navbar-brand img {
+    width: 50px;
+    height: auto;
+}
+
+footer .social-media a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #1F298D;
+    padding-right: 20px;
+}
+
+footer .footer-contact .alamat p {
+    padding: 0;
+    margin: 2px;
+}
