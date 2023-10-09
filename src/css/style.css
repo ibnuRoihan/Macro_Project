@@ -158,6 +158,8 @@ footer .footer-contact .alamat p {
     margin: 2px;
 }
 
+/* halaman index-login */
+
 /* Profile account */
 .navbar .dropdown img {
     width: 50px;
@@ -190,4 +192,71 @@ footer .footer-contact .alamat p {
     color: #EBEDFF;
     background-color: #5C66C6;
     border-radius: 0 4% 4% 0;
+}
+
+/* fitur */
+.border0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.fitur {
+    margin-bottom: 10%;
+}
+
+.fitur .box-fitur {
+    width: 70%;
+    height: 350px;
+    background-color: #EBEDFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(92, 102, 198, 0.4);
+}
+
+.fitur h1 {
+    color: #7B84E3;
+    font-size: 26px;
+    font-weight: 700;
+
+}
+
+.fitur h1 span {
+    color: #1F298D;
+}
+
+.fitur .box-fitur .box-ilustration {
+    width: 90%;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.fitur .box-fitur img {
+    width: 100%;
+}
+
+.fitur .box-fitur .img3, .img2, .img1 {
+    width: 80%;
+}
+
+.fitur .box-fitur p {
+    margin-top: 7%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1F298D;
+}
+
+.fitur .box-fitur a {
+    margin-top: 7%;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #1F298D;
+    color: #EBEDFF;
+}
+
+.fitur .box-fitur a:hover {
+    background-color: #7B84E3;
+    color: #fff;
+    border: 1px solid #1F298D;
 }
