@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/img/logo Inu.svg">
+    <title>iChoice - Sign-up</title>
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">    
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/style-signUp.css">
+
+    <!-- Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5 fw-bolder fs-4" style="color: #1F298D;" href="index.html">
+                    <img src="src/img/logo Inu.svg" alt="Logo">
+                    <span>iChoice</span>
+                </a>
+            </div>
+            
+
+        </nav>
+    </header>
+    <main>
+        <section class="form-signUp">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="container-form d-flex flex-column align-items-center mt-5">
+                            <h1>Lengkapi Data Diri Anda</h1>
+                            <div class="box-form d-flex flex-column align-items-center mt-4">
+                                <form action="">
+                                    <div class="d-flex flex-column align-baseline mb-3">
+                                        <label class="mb-0" for="nama">
+                                            <i class="ri-school-line"></i>
+                                            <span>Universitas</span>
+                                        </label>
+                                        <select name="universitas" id="universitas">
+                                            <option value="" disabled selected>Pilih Univertas Anda</option>
+                                            <option value="Universitas Negeri Semarang">Universitas Negeri Semarang</option>
+                                            <option value="Universitas Diponegoro">Universitas Diponegoro</option>
+                                            <option value="Universitas Indonesia">Universitas Indonesia</option>
+                                            <option value="Universitas Gadjah Mada">Universitas Gadjah Mada</option>
+                                        </select>
+                                    </div>
+                                    <div class="d-flex flex-column align-baseline mb-3">
+                                        <label class="mb-0" for="nama">
+                                            <i class="ri-school-line"></i>
+                                            <span>Program Studi</span>
+                                        </label>
+                                        <select name="prodi" id="prodi" onfocus='this.size=5' onblur='this.size=1' onchange='this.size=1'>
+                                            <option value="" disabled selected>Pilih Status Anda</option>
+                                            <option value="Informatika">Informatika</option>
+                                            <option value="Sistem Informasi">Sistem Informasi</option>
+                                            <option value="Ilmu Politik">Ilmu Politik</option>
+                                            <option value="Teknik Mesin">Teknik Mesin</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
+                                            <option value="Kimia">Kimia</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
+                                        </select>
+                                    </div>
+                                    <div class="d-flex flex-column align-baseline mb-3">
+                                        <label class="mb-0" for="nip">
+                                            <i class="ri-file-list-2-line"></i>
+                                            <span>Bukti</span>
+                                        </label>
+                                        <input type="file" name="bukti-ktm" id="bukti-ktm" placeholder="Masukkan NIP atau NIDN Anda">
+                                    </div>
+
+                                    <div class="text-end">
+                                        <input type="submit" value="Lanjutkan">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

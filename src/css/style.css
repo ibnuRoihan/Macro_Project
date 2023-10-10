@@ -195,12 +195,6 @@ footer .footer-contact .alamat p {
 }
 
 /* fitur */
-.border0 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #000;
-}
 
 .fitur {
     margin-bottom: 10%;

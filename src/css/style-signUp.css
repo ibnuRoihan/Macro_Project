@@ -1,0 +1,98 @@
+.form-signUp .container-form {
+    width: 100%;
+}
+
+.form-signUp {
+    color: #1F298D;
+}
+
+.form-signUp h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.box-form {
+    width: 50%;
+    height: 350px;
+}
+
+.box-form label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input[type="text"], select, textarea {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid rgba(92, 102, 198, 0.4);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #1F298D;
+    background-color: #EBEDFF;
+    font-size: 16px;
+}
+
+input[type="number"] {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid rgba(92, 102, 198, 0.4);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #1F298D;
+    background-color: #EBEDFF;
+    font-size: 16px;
+    appearance: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="text"]::placeholder, input[type="number"]::placeholder {
+    padding-left: 1%;
+    font-size: 16px;
+    color: #999;
+}
+
+input[type="text"]:focus, select:focus {
+    border: 1px solid rgba(92, 102, 198, 1);
+    outline: none;
+}
+
+select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z' fill='rgba(31,41,141,1)'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+    overflow-y: scroll;
+}
+
+
+input[type="submit"] {
+    padding: 6px 50px;
+    background-color: #1F298D;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 5%;
+}
+
+input[type=submit]:hover {
+    background-color: #5C66C6;
+    border: 1px solid #1F298D;
+    color: #fff;
+}
+
+input[type="file"] {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid rgba(92, 102, 198, 0.4);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #1F298D;
+    background-color: #EBEDFF;
+    font-size: 16px;
+}
