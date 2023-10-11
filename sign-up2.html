@@ -42,34 +42,52 @@
                         <div class="container-form d-flex flex-column align-items-center mt-5">
                             <h1>Lengkapi Data Diri Anda</h1>
                             <div class="box-form d-flex flex-column align-items-center mt-4">
-                                <form action="">
+                                <form action="confirm-id.html">
                                     <div class="d-flex flex-column align-baseline mb-3">
                                         <label class="mb-0" for="nama">
-                                            <i class="ri-user-3-line"></i>
-                                            <span>Nama</span>
+                                            <i class="ri-school-line"></i>
+                                            <span>Universitas</span>
                                         </label>
-                                        <input type="text" name="nama" id="nama" placeholder="Masukkan nama lengkap Anda">
+                                        <select name="universitas" id="universitas">
+                                            <option value="" disabled selected>Pilih Univertas Anda</option>
+                                            <option value="Universitas Negeri Semarang">Universitas Negeri Semarang</option>
+                                            <option value="Universitas Diponegoro">Universitas Diponegoro</option>
+                                            <option value="Universitas Indonesia">Universitas Indonesia</option>
+                                            <option value="Universitas Gadjah Mada">Universitas Gadjah Mada</option>
+                                        </select>
                                     </div>
                                     <div class="d-flex flex-column align-baseline mb-3">
                                         <label class="mb-0" for="nama">
-                                            <i class="ri-article-line"></i>
-                                            <span>Status</span>
+                                            <i class="ri-school-line"></i>
+                                            <span>Program Studi</span>
                                         </label>
-                                        <select name="status" id="status">
+                                        <select name="prodi" id="prodi" onfocus='this.size=5' onblur='this.size=1' onchange='this.size=1'>
                                             <option value="" disabled selected>Pilih Status Anda</option>
-                                            <option value="sudah menikah">Sudah Menikah</option>
-                                            <option value="belum menikah">Belum Menikah</option>
+                                            <option value="Informatika">Informatika</option>
+                                            <option value="Sistem Informasi">Sistem Informasi</option>
+                                            <option value="Ilmu Politik">Ilmu Politik</option>
+                                            <option value="Teknik Mesin">Teknik Mesin</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
+                                            <option value="Kimia">Kimia</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
+                                            <option value="Teknik Kimia">Teknik Kimia</option>
                                         </select>
                                     </div>
                                     <div class="d-flex flex-column align-baseline mb-3">
                                         <label class="mb-0" for="nip">
-                                            <i class="ri-file-list-2-line"></i>
-                                            <span>NIP/NIDN</span>
+                                            <i class="ri-bank-card-line"></i>
+                                            <span>Bukti</span>
                                         </label>
-                                        <input type="number" name="nip" id="nip" placeholder="Masukkan NIP atau NIDN Anda">
+                                        
+                                        <input type="file" name="bukti-ktm" id="bukti-ktm class">
                                     </div>
 
                                     <div class="text-end">
+                                        <a href="sign-up1.html">Kembali</a>
                                         <input type="submit" value="Lanjutkan">
                                     </div>
                                 </form>
